@@ -1,6 +1,6 @@
 # stLFR_SV2.1
 
-## ntrouction:
+## Introuction:
 
 This process is applicable to stLFR technology and similar linked read data. Currently running on stLFR data, theoretically it is also applicable to other linked read data. You can analyze and test the barcode by converting it to the "read_id # XXX_XXX_XXX" format on read ID.
 
