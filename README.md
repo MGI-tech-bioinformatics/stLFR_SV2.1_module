@@ -1,12 +1,13 @@
 # stLFR_SV2.1
 
-###Introuction:
+## ntrouction:
 
 This process is applicable to stLFR technology and similar linked read data. Currently running on stLFR data, theoretically it is also applicable to other linked read data. You can analyze and test the barcode by converting it to the "read_id # XXX_XXX_XXX" format on read ID.
 
 This process uses barcode information to detect breakpoint signals of structural variation (SV), such as: equilibrium translocation, INV, partial missing repetitions, and more complex structural breakpoints, which can be combined with CNV results and phase results The accuracy of deriving the true structural variation of chromosomes is limited by the distribution density of linked reads on DNA molecules. For example, stLFR kits built with 1.5ng starting volume can produce data that can guarantee SV detection accuracy above 20K.
 
-###Directory Structure:
+## Directory Structure:
+
 bin data example LFR-sv.pl Readme.docx run.sh tools
 
 Main program: LFR-sv
@@ -25,7 +26,8 @@ Readme.docx: this document
 
 run.sh: run script example
 
-###Parameter Description
+## Parameter Description：
+
 **Name:**
         LFR-sv
         version 2.1
